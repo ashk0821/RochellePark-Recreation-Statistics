@@ -1,6 +1,19 @@
 {
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "date-fns": "^2.18.0",
+    "faker": "^5.4.0",
+    "namor": "^2.0.2",
+    "rc-table": "^7.13.1",
+    "react-data-grid": "^7.0.0-canary.36",
+    "react-dom": "^17.0.1",
     "react-external-link": "^1.2.0",
-    "react-router-dom": "^5.2.0"
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-sortable-table": "^1.4.0",
+    "react-table": "^7.6.3",
+    "styled-components": "^5.2.1",
+    "uninstall-all-modules": "^1.0.5"
   }
 }
