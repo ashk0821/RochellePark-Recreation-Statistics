@@ -1,13 +1,6 @@
-import React from "react";
-import "../../App.css";
-import Tapp from "../Tapp";
+import React from 'react'
+import '../../App.css'
 
-function Statistics() {
-  return (
-    <>
-      <Tapp />
-    </>
-  );
+export default function Statistics(){
+    return <h1 className='statistics'>STATISTICS</h1>
 }
-
-export default Statistics;

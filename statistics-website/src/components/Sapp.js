@@ -10,6 +10,7 @@ class Sapp extends React.Component {
     return (
       <div className="Sapp">
         <h1>
+          {" "}
           <Link to="/league-schedules">Schedule</Link>
         </h1>
         <main>
