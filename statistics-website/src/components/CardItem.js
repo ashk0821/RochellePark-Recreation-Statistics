@@ -1,5 +1,4 @@
 import React from "react";
-import { ExternalLink } from "react-external-link";
 import ReactPlayer from "react-player";
 
 function CardItem(props) {
