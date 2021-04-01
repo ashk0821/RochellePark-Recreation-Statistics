@@ -144,7 +144,7 @@ export default function Table() {
           },
           {
             id: 3,
-            first: 'Amani "🐐"',
+            first: "Amani",
             last: "Islam",
             ppg: 40,
             apg: 20,
@@ -154,7 +154,7 @@ export default function Table() {
           {
             id: 4,
             first: "Patrick",
-            last: "Hdmajwecaxcz",
+            last: "Hajdukiewicz",
             ppg: 20,
             apg: 0,
             rpg: 20,
@@ -162,8 +162,8 @@ export default function Table() {
           },
           {
             id: 5,
-            first: "Obama",
-            last: "?",
+            first: "Alex",
+            last: "Caruso",
             ppg: 100,
             apg: 100,
             rpg: 100,

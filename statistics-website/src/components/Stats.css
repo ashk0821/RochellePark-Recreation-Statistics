@@ -1,0 +1,14 @@
+.googleSheets {
+  position: relative;
+  height: 600;
+  width: 400;
+  padding-bottom: 50%;
+}
+
+.googleSheets iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}
