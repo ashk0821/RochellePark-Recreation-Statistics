@@ -11,15 +11,19 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <HeroSection /> <br /> <br />
+      <HeroSection />
       <h1>
         {" "}
-        <Link to="/league-schedules">Schedules</Link>
+        <Link to="/league-schedules" className="h-link">
+          Schedules
+        </Link>
       </h1>
-      <Sapp /> <br /> <br /> <br />
+      <Sapp /> <br /> <br />
       <h1>
         {" "}
-        <Link to="/statistics">Statistics</Link>
+        <Link to="/statistics" className="h-link">
+          Statistics
+        </Link>
       </h1>
       <Tapp />
       <Cards />

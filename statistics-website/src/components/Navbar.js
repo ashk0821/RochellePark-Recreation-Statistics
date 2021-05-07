@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
+import rplion from "./rplion.jpg";
 import "./Navbar.css";
 
 function Navbar() {
@@ -29,8 +30,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            STATS
-            <i class="fab fa-typo3" />
+            RP BASKETBALL <pre> </pre> <img src={rplion} alt="rplion" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -69,7 +69,6 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
     </>
