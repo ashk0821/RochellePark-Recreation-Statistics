@@ -7,6 +7,7 @@ import Sapp from "../Sapp";
 import Tapp from "../Tapp";
 import "./Stats.css";
 import { Link } from "react-router-dom";
+import Sample from "../Sample";
 
 function Home() {
   return (
@@ -26,7 +27,7 @@ function Home() {
         </Link>
       </h1>
       <Tapp />
-      <Cards />
+      <Sample />
       <Footer />
     </>
   );

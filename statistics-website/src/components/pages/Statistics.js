@@ -8,7 +8,7 @@ function Statistics() {
   return (
     <>
       <div class="googleSheets">
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLOG-IyUr4ygprYfQ0yraum8NXqaSIwdLAHaVS09NuOeXPapuB_LSfolU5148T2eLxmqHX6TsM45S_/pubhtml?widget=true&amp;headers=false"></iframe>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT_q-sqbf5XdxoCgUWZu250zdiD5eoN50risxUCGzdAHLQg3NM4iwLdmxf4X7zckEDG1-brO3D7vXaz/pubhtml?widget=true&amp;headers=false&chrome=false"></iframe>{" "}
       </div>
       <Footer />
     </>

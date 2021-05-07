@@ -6,7 +6,7 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <h1>ROCHELLE PARK RECREATION</h1>
+      <h1>ROCHELLE PARK BASKETBALL</h1>
       <div className="hero-btns">
         <Button
           className="btns"
